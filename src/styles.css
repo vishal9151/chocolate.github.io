@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: darkgoldenrod;
+}
+
+.custom-pack {
+  margin: 20px;
+  background-color: cornsilk;
+  padding: 5px;
+  text-align: center;
+  color: darkslategrey;
+}
+
+.chocolate {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+.chocolate img {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity span {
+  margin: 0 10px;
+}
+
+.summary {
+  margin: 20px;
+}
+
+.summary p {
+  font-weight: bold;
+}
