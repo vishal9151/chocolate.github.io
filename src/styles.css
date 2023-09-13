@@ -23,7 +23,7 @@ body {
 }
 
 .chocolate img {
-  width: 80%;
+  width: 50%;
   height: 200px;
   object-fit: cover;
   border-radius: 15px;
