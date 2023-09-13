@@ -1,7 +1,7 @@
 import "./styles.css";
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { chocolatesData } from "../public/chocolates"; // A local JSON file that contains the data of the chocolates
+import { chocolatesData } from "./chocolates"; // A local JSON file that contains the data of the chocolates
 
 function Chocolate({ name, image, price, onIncChange, onDecChange, quantity }) {
   const increment = () => {
